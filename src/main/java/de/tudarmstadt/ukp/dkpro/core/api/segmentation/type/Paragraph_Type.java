@@ -7,11 +7,9 @@ import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
-/**
- * Updated by JCasGen Thu Feb 28 20:08:17 CET 2019
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * @generated */
 public class Paragraph_Type extends Div_Type {
     /**
      * @generated
@@ -34,10 +32,10 @@ public class Paragraph_Type extends Div_Type {
      * @generated
      */
     public Paragraph_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
-    }
+  }
 }
 
 

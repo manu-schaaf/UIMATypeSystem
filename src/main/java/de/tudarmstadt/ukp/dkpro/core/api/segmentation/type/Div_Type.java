@@ -10,12 +10,9 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
-/**
- * Document structure element.
- * Updated by JCasGen Thu Feb 28 20:08:17 CET 2019
- *
- * @generated
- */
+/** Document structure element.
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * @generated */
 public class Div_Type extends Annotation_Type {
     /**
      * @generated
@@ -45,10 +42,9 @@ public class Div_Type extends Annotation_Type {
      */
     public String getDivType(int addr) {
         if (featOkTst && casFeat_divType == null)
-            jcas.throwFeatMissing("divType", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Div");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_divType);
-    }
-
+      jcas.throwFeatMissing("divType", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Div");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_divType);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -56,11 +52,11 @@ public class Div_Type extends Annotation_Type {
      */
     public void setDivType(int addr, String v) {
         if (featOkTst && casFeat_divType == null)
-            jcas.throwFeatMissing("divType", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Div");
-        ll_cas.ll_setStringValue(addr, casFeatCode_divType, v);
-    }
-
-
+      jcas.throwFeatMissing("divType", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Div");
+    ll_cas.ll_setStringValue(addr, casFeatCode_divType, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -77,10 +73,9 @@ public class Div_Type extends Annotation_Type {
      */
     public String getId(int addr) {
         if (featOkTst && casFeat_id == null)
-            jcas.throwFeatMissing("id", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Div");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_id);
-    }
-
+      jcas.throwFeatMissing("id", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Div");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_id);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -88,9 +83,11 @@ public class Div_Type extends Annotation_Type {
      */
     public void setId(int addr, String v) {
         if (featOkTst && casFeat_id == null)
-            jcas.throwFeatMissing("id", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Div");
-        ll_cas.ll_setStringValue(addr, casFeatCode_id, v);
-    }
+      jcas.throwFeatMissing("id", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Div");
+    ll_cas.ll_setStringValue(addr, casFeatCode_id, v);}
+    
+  
+
 
 
     /**
@@ -101,18 +98,18 @@ public class Div_Type extends Annotation_Type {
      * @generated
      */
     public Div_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
+ 
+    casFeat_divType = jcas.getRequiredFeatureDE(casType, "divType", "uima.cas.String", featOkTst);
+    casFeatCode_divType  = (null == casFeat_divType) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_divType).getCode();
 
-        casFeat_divType = jcas.getRequiredFeatureDE(casType, "divType", "uima.cas.String", featOkTst);
-        casFeatCode_divType = (null == casFeat_divType) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_divType).getCode();
+ 
+    casFeat_id = jcas.getRequiredFeatureDE(casType, "id", "uima.cas.String", featOkTst);
+    casFeatCode_id  = (null == casFeat_id) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_id).getCode();
 
-
-        casFeat_id = jcas.getRequiredFeatureDE(casType, "id", "uima.cas.String", featOkTst);
-        casFeatCode_id = (null == casFeat_id) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_id).getCode();
-
-    }
+  }
 }
 
 

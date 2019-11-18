@@ -7,12 +7,9 @@ import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
-/**
- * Adverbs
- * Updated by JCasGen Thu Feb 28 20:08:16 CET 2019
- *
- * @generated
- */
+/** Adverbs
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * @generated */
 public class ADV_Type extends POS_Type {
     /**
      * @generated
@@ -35,10 +32,10 @@ public class ADV_Type extends POS_Type {
      * @generated
      */
     public ADV_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
-    }
+  }
 }
 
 

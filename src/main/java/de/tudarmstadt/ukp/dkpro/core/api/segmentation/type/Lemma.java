@@ -10,12 +10,10 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import org.apache.uima.jcas.tcas.Annotation;
 
 
-/**
- * Updated by JCasGen Thu Feb 28 20:08:17 CET 2019
- * XML source: C:/Users/irrep/Documents/Sync/Arbeit/TextAnnotator/TypeSystemDescriptor/src/main/resources/desc/type/TextTechnologyOCR.xml
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * XML source: /home/stud_homes/s3676959/git/UIMATypeSystem/src/main/resources/desc/type/TextTechnologyOCR.xml
+ * @generated */
 public class Lemma extends Annotation {
     /**
      * @generated
@@ -35,17 +33,15 @@ public class Lemma extends Annotation {
      * @generated
      */
     @Override
-    public int getTypeIndexID() {
-        return typeIndexID;
-    }
-
+    public int getTypeIndexID() {return typeIndexID;}
+ 
     /**
      * Never called.  Disable default constructor
      *
      * @generated
      */
     protected Lemma() {/* intentionally empty block */}
-
+    
     /**
      * Internal - constructor used by generator
      *
@@ -54,18 +50,18 @@ public class Lemma extends Annotation {
      * @generated
      */
     public Lemma(int addr, TOP_Type type) {
-        super(addr, type);
-        readObject();
-    }
-
+    super(addr, type);
+    readObject();
+  }
+  
     /**
      * @param jcas JCas to which this Feature Structure belongs
      * @generated
      */
     public Lemma(JCas jcas) {
-        super(jcas);
-        readObject();
-    }
+    super(jcas);
+    readObject();   
+  } 
 
     /**
      * @param jcas  JCas to which this Feature Structure belongs
@@ -74,19 +70,19 @@ public class Lemma extends Annotation {
      * @generated
      */
     public Lemma(JCas jcas, int begin, int end) {
-        super(jcas);
-        setBegin(begin);
-        setEnd(end);
-        readObject();
-    }
+    super(jcas);
+    setBegin(begin);
+    setEnd(end);
+    readObject();
+  }   
 
-    /**
-     * <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
      * Write your own initialization here
      * <!-- end-user-doc -->
      *
-     * @generated modifiable
-     */
+   * @generated modifiable 
+   */
     private void readObject() {/*default - does nothing empty block */}
 
 
@@ -100,11 +96,10 @@ public class Lemma extends Annotation {
      * @generated
      */
     public String getValue() {
-        if (Lemma_Type.featOkTst && ((Lemma_Type) jcasType).casFeat_value == null)
-            jcasType.jcas.throwFeatMissing("value", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma");
-        return jcasType.ll_cas.ll_getStringValue(addr, ((Lemma_Type) jcasType).casFeatCode_value);
-    }
-
+    if (Lemma_Type.featOkTst && ((Lemma_Type)jcasType).casFeat_value == null)
+      jcasType.jcas.throwFeatMissing("value", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((Lemma_Type)jcasType).casFeatCode_value);}
+    
     /**
      * setter for value - sets
      *
@@ -112,10 +107,9 @@ public class Lemma extends Annotation {
      * @generated
      */
     public void setValue(String v) {
-        if (Lemma_Type.featOkTst && ((Lemma_Type) jcasType).casFeat_value == null)
-            jcasType.jcas.throwFeatMissing("value", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma");
-        jcasType.ll_cas.ll_setStringValue(addr, ((Lemma_Type) jcasType).casFeatCode_value, v);
-    }
-}
+    if (Lemma_Type.featOkTst && ((Lemma_Type)jcasType).casFeat_value == null)
+      jcasType.jcas.throwFeatMissing("value", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma");
+    jcasType.ll_cas.ll_setStringValue(addr, ((Lemma_Type)jcasType).casFeatCode_value, v);}    
+  }
 
     

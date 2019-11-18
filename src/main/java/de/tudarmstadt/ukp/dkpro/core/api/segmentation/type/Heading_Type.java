@@ -7,12 +7,9 @@ import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
-/**
- * Document title, section heading, etc.
- * Updated by JCasGen Thu Feb 28 20:08:17 CET 2019
- *
- * @generated
- */
+/** Document title, section heading, etc.
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * @generated */
 public class Heading_Type extends Div_Type {
     /**
      * @generated
@@ -35,10 +32,10 @@ public class Heading_Type extends Div_Type {
      * @generated
      */
     public Heading_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
-    }
+  }
 }
 
 

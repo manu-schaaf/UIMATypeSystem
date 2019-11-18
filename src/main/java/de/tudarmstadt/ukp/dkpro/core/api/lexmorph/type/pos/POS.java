@@ -10,13 +10,10 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import org.apache.uima.jcas.tcas.Annotation;
 
 
-/**
- * The part of speech of a word or a phrase.
- * Updated by JCasGen Thu Feb 28 20:08:16 CET 2019
- * XML source: C:/Users/irrep/Documents/Sync/Arbeit/TextAnnotator/TypeSystemDescriptor/src/main/resources/desc/type/TextTechnologyOCR.xml
- *
- * @generated
- */
+/** The part of speech of a word or a phrase.
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * XML source: /home/stud_homes/s3676959/git/UIMATypeSystem/src/main/resources/desc/type/TextTechnologyOCR.xml
+ * @generated */
 public class POS extends Annotation {
     /**
      * @generated
@@ -36,17 +33,15 @@ public class POS extends Annotation {
      * @generated
      */
     @Override
-    public int getTypeIndexID() {
-        return typeIndexID;
-    }
-
+    public int getTypeIndexID() {return typeIndexID;}
+ 
     /**
      * Never called.  Disable default constructor
      *
      * @generated
      */
     protected POS() {/* intentionally empty block */}
-
+    
     /**
      * Internal - constructor used by generator
      *
@@ -55,18 +50,18 @@ public class POS extends Annotation {
      * @generated
      */
     public POS(int addr, TOP_Type type) {
-        super(addr, type);
-        readObject();
-    }
-
+    super(addr, type);
+    readObject();
+  }
+  
     /**
      * @param jcas JCas to which this Feature Structure belongs
      * @generated
      */
     public POS(JCas jcas) {
-        super(jcas);
-        readObject();
-    }
+    super(jcas);
+    readObject();   
+  } 
 
     /**
      * @param jcas  JCas to which this Feature Structure belongs
@@ -75,19 +70,19 @@ public class POS extends Annotation {
      * @generated
      */
     public POS(JCas jcas, int begin, int end) {
-        super(jcas);
-        setBegin(begin);
-        setEnd(end);
-        readObject();
-    }
+    super(jcas);
+    setBegin(begin);
+    setEnd(end);
+    readObject();
+  }   
 
-    /**
-     * <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
      * Write your own initialization here
      * <!-- end-user-doc -->
      *
-     * @generated modifiable
-     */
+   * @generated modifiable 
+   */
     private void readObject() {/*default - does nothing empty block */}
 
 
@@ -102,11 +97,10 @@ public class POS extends Annotation {
      * @generated
      */
     public String getPosValue() {
-        if (POS_Type.featOkTst && ((POS_Type) jcasType).casFeat_PosValue == null)
-            jcasType.jcas.throwFeatMissing("PosValue", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS");
-        return jcasType.ll_cas.ll_getStringValue(addr, ((POS_Type) jcasType).casFeatCode_PosValue);
-    }
-
+    if (POS_Type.featOkTst && ((POS_Type)jcasType).casFeat_PosValue == null)
+      jcasType.jcas.throwFeatMissing("PosValue", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((POS_Type)jcasType).casFeatCode_PosValue);}
+    
     /**
      * setter for PosValue - sets The string representation of POS. Mostly it is the POS
      * representation of the wrapped POS tagger.
@@ -115,10 +109,9 @@ public class POS extends Annotation {
      * @generated
      */
     public void setPosValue(String v) {
-        if (POS_Type.featOkTst && ((POS_Type) jcasType).casFeat_PosValue == null)
-            jcasType.jcas.throwFeatMissing("PosValue", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS");
-        jcasType.ll_cas.ll_setStringValue(addr, ((POS_Type) jcasType).casFeatCode_PosValue, v);
-    }
-}
+    if (POS_Type.featOkTst && ((POS_Type)jcasType).casFeat_PosValue == null)
+      jcasType.jcas.throwFeatMissing("PosValue", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS");
+    jcasType.ll_cas.ll_setStringValue(addr, ((POS_Type)jcasType).casFeatCode_PosValue, v);}    
+  }
 
     

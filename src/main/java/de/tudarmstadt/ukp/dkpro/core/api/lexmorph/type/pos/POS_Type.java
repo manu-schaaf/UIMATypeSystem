@@ -10,12 +10,9 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
-/**
- * The part of speech of a word or a phrase.
- * Updated by JCasGen Thu Feb 28 20:08:16 CET 2019
- *
- * @generated
- */
+/** The part of speech of a word or a phrase.
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * @generated */
 public class POS_Type extends Annotation_Type {
     /**
      * @generated
@@ -45,10 +42,9 @@ public class POS_Type extends Annotation_Type {
      */
     public String getPosValue(int addr) {
         if (featOkTst && casFeat_PosValue == null)
-            jcas.throwFeatMissing("PosValue", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_PosValue);
-    }
-
+      jcas.throwFeatMissing("PosValue", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_PosValue);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -56,9 +52,11 @@ public class POS_Type extends Annotation_Type {
      */
     public void setPosValue(int addr, String v) {
         if (featOkTst && casFeat_PosValue == null)
-            jcas.throwFeatMissing("PosValue", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS");
-        ll_cas.ll_setStringValue(addr, casFeatCode_PosValue, v);
-    }
+      jcas.throwFeatMissing("PosValue", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS");
+    ll_cas.ll_setStringValue(addr, casFeatCode_PosValue, v);}
+    
+  
+
 
 
     /**
@@ -69,14 +67,14 @@ public class POS_Type extends Annotation_Type {
      * @generated
      */
     public POS_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
+ 
+    casFeat_PosValue = jcas.getRequiredFeatureDE(casType, "PosValue", "uima.cas.String", featOkTst);
+    casFeatCode_PosValue  = (null == casFeat_PosValue) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_PosValue).getCode();
 
-        casFeat_PosValue = jcas.getRequiredFeatureDE(casType, "PosValue", "uima.cas.String", featOkTst);
-        casFeatCode_PosValue = (null == casFeat_PosValue) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_PosValue).getCode();
-
-    }
+  }
 }
 
 

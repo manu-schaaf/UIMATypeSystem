@@ -10,12 +10,9 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
-/**
- * This type represents a part of a decompounding word. A Split can be either a CompoundPart or a LinkingMorpheme.
- * Updated by JCasGen Thu Feb 28 20:08:17 CET 2019
- *
- * @generated
- */
+/** This type represents a part of a decompounding word. A Split can be either a CompoundPart or a LinkingMorpheme.
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * @generated */
 public class Split_Type extends Annotation_Type {
     /**
      * @generated
@@ -45,10 +42,9 @@ public class Split_Type extends Annotation_Type {
      */
     public int getSplits(int addr) {
         if (featOkTst && casFeat_splits == null)
-            jcas.throwFeatMissing("splits", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Split");
-        return ll_cas.ll_getRefValue(addr, casFeatCode_splits);
-    }
-
+      jcas.throwFeatMissing("splits", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Split");
+    return ll_cas.ll_getRefValue(addr, casFeatCode_splits);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -56,10 +52,9 @@ public class Split_Type extends Annotation_Type {
      */
     public void setSplits(int addr, int v) {
         if (featOkTst && casFeat_splits == null)
-            jcas.throwFeatMissing("splits", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Split");
-        ll_cas.ll_setRefValue(addr, casFeatCode_splits, v);
-    }
-
+      jcas.throwFeatMissing("splits", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Split");
+    ll_cas.ll_setRefValue(addr, casFeatCode_splits, v);}
+    
     /**
      * @param addr low level Feature Structure reference
      * @param i    index of item in the array
@@ -68,13 +63,13 @@ public class Split_Type extends Annotation_Type {
      */
     public int getSplits(int addr, int i) {
         if (featOkTst && casFeat_splits == null)
-            jcas.throwFeatMissing("splits", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Split");
-        if (lowLevelTypeChecks)
-            return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_splits), i, true);
-        jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_splits), i);
-        return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_splits), i);
-    }
-
+      jcas.throwFeatMissing("splits", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Split");
+    if (lowLevelTypeChecks)
+      return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_splits), i, true);
+    jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_splits), i);
+  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_splits), i);
+  }
+   
     /**
      * @param addr low level Feature Structure reference
      * @param i    index of item in the array
@@ -83,12 +78,14 @@ public class Split_Type extends Annotation_Type {
      */
     public void setSplits(int addr, int i, int v) {
         if (featOkTst && casFeat_splits == null)
-            jcas.throwFeatMissing("splits", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Split");
-        if (lowLevelTypeChecks)
-            ll_cas.ll_setRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_splits), i, v, true);
-        jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_splits), i);
-        ll_cas.ll_setRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_splits), i, v);
-    }
+      jcas.throwFeatMissing("splits", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Split");
+    if (lowLevelTypeChecks)
+      ll_cas.ll_setRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_splits), i, v, true);
+    jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_splits), i);
+    ll_cas.ll_setRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_splits), i, v);
+  }
+ 
+
 
 
     /**
@@ -99,14 +96,14 @@ public class Split_Type extends Annotation_Type {
      * @generated
      */
     public Split_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
+ 
+    casFeat_splits = jcas.getRequiredFeatureDE(casType, "splits", "uima.cas.FSArray", featOkTst);
+    casFeatCode_splits  = (null == casFeat_splits) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_splits).getCode();
 
-        casFeat_splits = jcas.getRequiredFeatureDE(casType, "splits", "uima.cas.FSArray", featOkTst);
-        casFeatCode_splits = (null == casFeat_splits) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_splits).getCode();
-
-    }
+  }
 }
 
 

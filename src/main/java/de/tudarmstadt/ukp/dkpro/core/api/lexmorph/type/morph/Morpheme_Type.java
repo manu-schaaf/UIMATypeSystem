@@ -10,11 +10,9 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
-/**
- * Updated by JCasGen Thu Feb 28 20:08:16 CET 2019
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * @generated */
 public class Morpheme_Type extends Annotation_Type {
     /**
      * @generated
@@ -44,10 +42,9 @@ public class Morpheme_Type extends Annotation_Type {
      */
     public String getMorphTag(int addr) {
         if (featOkTst && casFeat_morphTag == null)
-            jcas.throwFeatMissing("morphTag", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.Morpheme");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_morphTag);
-    }
-
+      jcas.throwFeatMissing("morphTag", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.Morpheme");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_morphTag);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -55,9 +52,11 @@ public class Morpheme_Type extends Annotation_Type {
      */
     public void setMorphTag(int addr, String v) {
         if (featOkTst && casFeat_morphTag == null)
-            jcas.throwFeatMissing("morphTag", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.Morpheme");
-        ll_cas.ll_setStringValue(addr, casFeatCode_morphTag, v);
-    }
+      jcas.throwFeatMissing("morphTag", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.Morpheme");
+    ll_cas.ll_setStringValue(addr, casFeatCode_morphTag, v);}
+    
+  
+
 
 
     /**
@@ -68,14 +67,14 @@ public class Morpheme_Type extends Annotation_Type {
      * @generated
      */
     public Morpheme_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
+ 
+    casFeat_morphTag = jcas.getRequiredFeatureDE(casType, "morphTag", "uima.cas.String", featOkTst);
+    casFeatCode_morphTag  = (null == casFeat_morphTag) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_morphTag).getCode();
 
-        casFeat_morphTag = jcas.getRequiredFeatureDE(casType, "morphTag", "uima.cas.String", featOkTst);
-        casFeatCode_morphTag = (null == casFeat_morphTag) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_morphTag).getCode();
-
-    }
+  }
 }
 
 

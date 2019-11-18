@@ -10,12 +10,9 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
-/**
- * Morphological categories that can be attached to tokens.
- * Updated by JCasGen Thu Feb 28 20:08:16 CET 2019
- *
- * @generated
- */
+/** Morphological categories that can be attached to tokens.
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * @generated */
 public class MorphologicalFeatures_Type extends Annotation_Type {
     /**
      * @generated
@@ -45,10 +42,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getGender(int addr) {
         if (featOkTst && casFeat_gender == null)
-            jcas.throwFeatMissing("gender", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_gender);
-    }
-
+      jcas.throwFeatMissing("gender", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_gender);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -56,11 +52,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setGender(int addr, String v) {
         if (featOkTst && casFeat_gender == null)
-            jcas.throwFeatMissing("gender", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_gender, v);
-    }
-
-
+      jcas.throwFeatMissing("gender", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_gender, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -77,10 +73,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getNumber(int addr) {
         if (featOkTst && casFeat_number == null)
-            jcas.throwFeatMissing("number", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_number);
-    }
-
+      jcas.throwFeatMissing("number", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_number);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -88,11 +83,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setNumber(int addr, String v) {
         if (featOkTst && casFeat_number == null)
-            jcas.throwFeatMissing("number", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_number, v);
-    }
-
-
+      jcas.throwFeatMissing("number", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_number, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -109,10 +104,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getCase(int addr) {
         if (featOkTst && casFeat_case == null)
-            jcas.throwFeatMissing("case", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_case);
-    }
-
+      jcas.throwFeatMissing("case", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_case);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -120,11 +114,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setCase(int addr, String v) {
         if (featOkTst && casFeat_case == null)
-            jcas.throwFeatMissing("case", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_case, v);
-    }
-
-
+      jcas.throwFeatMissing("case", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_case, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -141,10 +135,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getDegree(int addr) {
         if (featOkTst && casFeat_degree == null)
-            jcas.throwFeatMissing("degree", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_degree);
-    }
-
+      jcas.throwFeatMissing("degree", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_degree);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -152,11 +145,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setDegree(int addr, String v) {
         if (featOkTst && casFeat_degree == null)
-            jcas.throwFeatMissing("degree", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_degree, v);
-    }
-
-
+      jcas.throwFeatMissing("degree", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_degree, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -173,10 +166,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getVerbForm(int addr) {
         if (featOkTst && casFeat_verbForm == null)
-            jcas.throwFeatMissing("verbForm", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_verbForm);
-    }
-
+      jcas.throwFeatMissing("verbForm", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_verbForm);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -184,11 +176,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setVerbForm(int addr, String v) {
         if (featOkTst && casFeat_verbForm == null)
-            jcas.throwFeatMissing("verbForm", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_verbForm, v);
-    }
-
-
+      jcas.throwFeatMissing("verbForm", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_verbForm, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -205,10 +197,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getTense(int addr) {
         if (featOkTst && casFeat_tense == null)
-            jcas.throwFeatMissing("tense", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_tense);
-    }
-
+      jcas.throwFeatMissing("tense", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_tense);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -216,11 +207,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setTense(int addr, String v) {
         if (featOkTst && casFeat_tense == null)
-            jcas.throwFeatMissing("tense", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_tense, v);
-    }
-
-
+      jcas.throwFeatMissing("tense", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_tense, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -237,10 +228,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getMood(int addr) {
         if (featOkTst && casFeat_mood == null)
-            jcas.throwFeatMissing("mood", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_mood);
-    }
-
+      jcas.throwFeatMissing("mood", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_mood);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -248,11 +238,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setMood(int addr, String v) {
         if (featOkTst && casFeat_mood == null)
-            jcas.throwFeatMissing("mood", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_mood, v);
-    }
-
-
+      jcas.throwFeatMissing("mood", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_mood, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -269,10 +259,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getVoice(int addr) {
         if (featOkTst && casFeat_voice == null)
-            jcas.throwFeatMissing("voice", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_voice);
-    }
-
+      jcas.throwFeatMissing("voice", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_voice);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -280,11 +269,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setVoice(int addr, String v) {
         if (featOkTst && casFeat_voice == null)
-            jcas.throwFeatMissing("voice", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_voice, v);
-    }
-
-
+      jcas.throwFeatMissing("voice", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_voice, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -301,10 +290,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getDefiniteness(int addr) {
         if (featOkTst && casFeat_definiteness == null)
-            jcas.throwFeatMissing("definiteness", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_definiteness);
-    }
-
+      jcas.throwFeatMissing("definiteness", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_definiteness);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -312,11 +300,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setDefiniteness(int addr, String v) {
         if (featOkTst && casFeat_definiteness == null)
-            jcas.throwFeatMissing("definiteness", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_definiteness, v);
-    }
-
-
+      jcas.throwFeatMissing("definiteness", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_definiteness, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -333,10 +321,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getValue(int addr) {
         if (featOkTst && casFeat_value == null)
-            jcas.throwFeatMissing("value", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_value);
-    }
-
+      jcas.throwFeatMissing("value", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_value);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -344,11 +331,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setValue(int addr, String v) {
         if (featOkTst && casFeat_value == null)
-            jcas.throwFeatMissing("value", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_value, v);
-    }
-
-
+      jcas.throwFeatMissing("value", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_value, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -365,10 +352,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getPerson(int addr) {
         if (featOkTst && casFeat_person == null)
-            jcas.throwFeatMissing("person", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_person);
-    }
-
+      jcas.throwFeatMissing("person", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_person);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -376,11 +362,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setPerson(int addr, String v) {
         if (featOkTst && casFeat_person == null)
-            jcas.throwFeatMissing("person", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_person, v);
-    }
-
-
+      jcas.throwFeatMissing("person", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_person, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -397,10 +383,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getAspect(int addr) {
         if (featOkTst && casFeat_aspect == null)
-            jcas.throwFeatMissing("aspect", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_aspect);
-    }
-
+      jcas.throwFeatMissing("aspect", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_aspect);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -408,11 +393,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setAspect(int addr, String v) {
         if (featOkTst && casFeat_aspect == null)
-            jcas.throwFeatMissing("aspect", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_aspect, v);
-    }
-
-
+      jcas.throwFeatMissing("aspect", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_aspect, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -429,10 +414,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getAnimacy(int addr) {
         if (featOkTst && casFeat_animacy == null)
-            jcas.throwFeatMissing("animacy", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_animacy);
-    }
-
+      jcas.throwFeatMissing("animacy", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_animacy);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -440,11 +424,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setAnimacy(int addr, String v) {
         if (featOkTst && casFeat_animacy == null)
-            jcas.throwFeatMissing("animacy", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_animacy, v);
-    }
-
-
+      jcas.throwFeatMissing("animacy", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_animacy, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -461,10 +445,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getNegative(int addr) {
         if (featOkTst && casFeat_negative == null)
-            jcas.throwFeatMissing("negative", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_negative);
-    }
-
+      jcas.throwFeatMissing("negative", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_negative);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -472,11 +455,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setNegative(int addr, String v) {
         if (featOkTst && casFeat_negative == null)
-            jcas.throwFeatMissing("negative", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_negative, v);
-    }
-
-
+      jcas.throwFeatMissing("negative", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_negative, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -493,10 +476,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getNumType(int addr) {
         if (featOkTst && casFeat_numType == null)
-            jcas.throwFeatMissing("numType", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_numType);
-    }
-
+      jcas.throwFeatMissing("numType", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_numType);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -504,11 +486,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setNumType(int addr, String v) {
         if (featOkTst && casFeat_numType == null)
-            jcas.throwFeatMissing("numType", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_numType, v);
-    }
-
-
+      jcas.throwFeatMissing("numType", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_numType, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -525,10 +507,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getPossessive(int addr) {
         if (featOkTst && casFeat_possessive == null)
-            jcas.throwFeatMissing("possessive", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_possessive);
-    }
-
+      jcas.throwFeatMissing("possessive", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_possessive);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -536,11 +517,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setPossessive(int addr, String v) {
         if (featOkTst && casFeat_possessive == null)
-            jcas.throwFeatMissing("possessive", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_possessive, v);
-    }
-
-
+      jcas.throwFeatMissing("possessive", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_possessive, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -557,10 +538,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getPronType(int addr) {
         if (featOkTst && casFeat_pronType == null)
-            jcas.throwFeatMissing("pronType", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_pronType);
-    }
-
+      jcas.throwFeatMissing("pronType", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_pronType);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -568,11 +548,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setPronType(int addr, String v) {
         if (featOkTst && casFeat_pronType == null)
-            jcas.throwFeatMissing("pronType", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_pronType, v);
-    }
-
-
+      jcas.throwFeatMissing("pronType", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_pronType, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -589,10 +569,9 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public String getReflex(int addr) {
         if (featOkTst && casFeat_reflex == null)
-            jcas.throwFeatMissing("reflex", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_reflex);
-    }
-
+      jcas.throwFeatMissing("reflex", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_reflex);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -600,9 +579,11 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      */
     public void setReflex(int addr, String v) {
         if (featOkTst && casFeat_reflex == null)
-            jcas.throwFeatMissing("reflex", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-        ll_cas.ll_setStringValue(addr, casFeatCode_reflex, v);
-    }
+      jcas.throwFeatMissing("reflex", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+    ll_cas.ll_setStringValue(addr, casFeatCode_reflex, v);}
+    
+  
+
 
 
     /**
@@ -613,82 +594,82 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
      * @generated
      */
     public MorphologicalFeatures_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
+ 
+    casFeat_gender = jcas.getRequiredFeatureDE(casType, "gender", "uima.cas.String", featOkTst);
+    casFeatCode_gender  = (null == casFeat_gender) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_gender).getCode();
 
-        casFeat_gender = jcas.getRequiredFeatureDE(casType, "gender", "uima.cas.String", featOkTst);
-        casFeatCode_gender = (null == casFeat_gender) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_gender).getCode();
+ 
+    casFeat_number = jcas.getRequiredFeatureDE(casType, "number", "uima.cas.String", featOkTst);
+    casFeatCode_number  = (null == casFeat_number) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_number).getCode();
 
+ 
+    casFeat_case = jcas.getRequiredFeatureDE(casType, "case", "uima.cas.String", featOkTst);
+    casFeatCode_case  = (null == casFeat_case) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_case).getCode();
 
-        casFeat_number = jcas.getRequiredFeatureDE(casType, "number", "uima.cas.String", featOkTst);
-        casFeatCode_number = (null == casFeat_number) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_number).getCode();
+ 
+    casFeat_degree = jcas.getRequiredFeatureDE(casType, "degree", "uima.cas.String", featOkTst);
+    casFeatCode_degree  = (null == casFeat_degree) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_degree).getCode();
 
+ 
+    casFeat_verbForm = jcas.getRequiredFeatureDE(casType, "verbForm", "uima.cas.String", featOkTst);
+    casFeatCode_verbForm  = (null == casFeat_verbForm) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_verbForm).getCode();
 
-        casFeat_case = jcas.getRequiredFeatureDE(casType, "case", "uima.cas.String", featOkTst);
-        casFeatCode_case = (null == casFeat_case) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_case).getCode();
+ 
+    casFeat_tense = jcas.getRequiredFeatureDE(casType, "tense", "uima.cas.String", featOkTst);
+    casFeatCode_tense  = (null == casFeat_tense) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_tense).getCode();
 
+ 
+    casFeat_mood = jcas.getRequiredFeatureDE(casType, "mood", "uima.cas.String", featOkTst);
+    casFeatCode_mood  = (null == casFeat_mood) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_mood).getCode();
 
-        casFeat_degree = jcas.getRequiredFeatureDE(casType, "degree", "uima.cas.String", featOkTst);
-        casFeatCode_degree = (null == casFeat_degree) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_degree).getCode();
+ 
+    casFeat_voice = jcas.getRequiredFeatureDE(casType, "voice", "uima.cas.String", featOkTst);
+    casFeatCode_voice  = (null == casFeat_voice) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_voice).getCode();
 
+ 
+    casFeat_definiteness = jcas.getRequiredFeatureDE(casType, "definiteness", "uima.cas.String", featOkTst);
+    casFeatCode_definiteness  = (null == casFeat_definiteness) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_definiteness).getCode();
 
-        casFeat_verbForm = jcas.getRequiredFeatureDE(casType, "verbForm", "uima.cas.String", featOkTst);
-        casFeatCode_verbForm = (null == casFeat_verbForm) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_verbForm).getCode();
+ 
+    casFeat_value = jcas.getRequiredFeatureDE(casType, "value", "uima.cas.String", featOkTst);
+    casFeatCode_value  = (null == casFeat_value) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_value).getCode();
 
+ 
+    casFeat_person = jcas.getRequiredFeatureDE(casType, "person", "uima.cas.String", featOkTst);
+    casFeatCode_person  = (null == casFeat_person) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_person).getCode();
 
-        casFeat_tense = jcas.getRequiredFeatureDE(casType, "tense", "uima.cas.String", featOkTst);
-        casFeatCode_tense = (null == casFeat_tense) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_tense).getCode();
+ 
+    casFeat_aspect = jcas.getRequiredFeatureDE(casType, "aspect", "uima.cas.String", featOkTst);
+    casFeatCode_aspect  = (null == casFeat_aspect) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_aspect).getCode();
 
+ 
+    casFeat_animacy = jcas.getRequiredFeatureDE(casType, "animacy", "uima.cas.String", featOkTst);
+    casFeatCode_animacy  = (null == casFeat_animacy) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_animacy).getCode();
 
-        casFeat_mood = jcas.getRequiredFeatureDE(casType, "mood", "uima.cas.String", featOkTst);
-        casFeatCode_mood = (null == casFeat_mood) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_mood).getCode();
+ 
+    casFeat_negative = jcas.getRequiredFeatureDE(casType, "negative", "uima.cas.String", featOkTst);
+    casFeatCode_negative  = (null == casFeat_negative) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_negative).getCode();
 
+ 
+    casFeat_numType = jcas.getRequiredFeatureDE(casType, "numType", "uima.cas.String", featOkTst);
+    casFeatCode_numType  = (null == casFeat_numType) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_numType).getCode();
 
-        casFeat_voice = jcas.getRequiredFeatureDE(casType, "voice", "uima.cas.String", featOkTst);
-        casFeatCode_voice = (null == casFeat_voice) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_voice).getCode();
+ 
+    casFeat_possessive = jcas.getRequiredFeatureDE(casType, "possessive", "uima.cas.String", featOkTst);
+    casFeatCode_possessive  = (null == casFeat_possessive) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_possessive).getCode();
 
+ 
+    casFeat_pronType = jcas.getRequiredFeatureDE(casType, "pronType", "uima.cas.String", featOkTst);
+    casFeatCode_pronType  = (null == casFeat_pronType) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_pronType).getCode();
 
-        casFeat_definiteness = jcas.getRequiredFeatureDE(casType, "definiteness", "uima.cas.String", featOkTst);
-        casFeatCode_definiteness = (null == casFeat_definiteness) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_definiteness).getCode();
+ 
+    casFeat_reflex = jcas.getRequiredFeatureDE(casType, "reflex", "uima.cas.String", featOkTst);
+    casFeatCode_reflex  = (null == casFeat_reflex) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_reflex).getCode();
 
-
-        casFeat_value = jcas.getRequiredFeatureDE(casType, "value", "uima.cas.String", featOkTst);
-        casFeatCode_value = (null == casFeat_value) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_value).getCode();
-
-
-        casFeat_person = jcas.getRequiredFeatureDE(casType, "person", "uima.cas.String", featOkTst);
-        casFeatCode_person = (null == casFeat_person) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_person).getCode();
-
-
-        casFeat_aspect = jcas.getRequiredFeatureDE(casType, "aspect", "uima.cas.String", featOkTst);
-        casFeatCode_aspect = (null == casFeat_aspect) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_aspect).getCode();
-
-
-        casFeat_animacy = jcas.getRequiredFeatureDE(casType, "animacy", "uima.cas.String", featOkTst);
-        casFeatCode_animacy = (null == casFeat_animacy) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_animacy).getCode();
-
-
-        casFeat_negative = jcas.getRequiredFeatureDE(casType, "negative", "uima.cas.String", featOkTst);
-        casFeatCode_negative = (null == casFeat_negative) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_negative).getCode();
-
-
-        casFeat_numType = jcas.getRequiredFeatureDE(casType, "numType", "uima.cas.String", featOkTst);
-        casFeatCode_numType = (null == casFeat_numType) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_numType).getCode();
-
-
-        casFeat_possessive = jcas.getRequiredFeatureDE(casType, "possessive", "uima.cas.String", featOkTst);
-        casFeatCode_possessive = (null == casFeat_possessive) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_possessive).getCode();
-
-
-        casFeat_pronType = jcas.getRequiredFeatureDE(casType, "pronType", "uima.cas.String", featOkTst);
-        casFeatCode_pronType = (null == casFeat_pronType) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_pronType).getCode();
-
-
-        casFeat_reflex = jcas.getRequiredFeatureDE(casType, "reflex", "uima.cas.String", featOkTst);
-        casFeatCode_reflex = (null == casFeat_reflex) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_reflex).getCode();
-
-    }
+  }
 }
 
 

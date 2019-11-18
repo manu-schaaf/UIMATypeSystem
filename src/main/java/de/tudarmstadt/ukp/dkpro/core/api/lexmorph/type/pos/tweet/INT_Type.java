@@ -8,12 +8,9 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 import de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.O_Type;
 
-/**
- * proper noun + verbal
- * Updated by JCasGen Thu Feb 28 20:08:17 CET 2019
- *
- * @generated
- */
+/** proper noun + verbal
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * @generated */
 public class INT_Type extends O_Type {
     /**
      * @generated
@@ -36,10 +33,10 @@ public class INT_Type extends O_Type {
      * @generated
      */
     public INT_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
-    }
+  }
 }
 
 

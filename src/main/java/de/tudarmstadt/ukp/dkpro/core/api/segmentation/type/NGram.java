@@ -10,12 +10,10 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import org.apache.uima.jcas.tcas.Annotation;
 
 
-/**
- * Updated by JCasGen Thu Feb 28 20:08:17 CET 2019
- * XML source: C:/Users/irrep/Documents/Sync/Arbeit/TextAnnotator/TypeSystemDescriptor/src/main/resources/desc/type/TextTechnologyOCR.xml
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * XML source: /home/stud_homes/s3676959/git/UIMATypeSystem/src/main/resources/desc/type/TextTechnologyOCR.xml
+ * @generated */
 public class NGram extends Annotation {
     /**
      * @generated
@@ -35,17 +33,15 @@ public class NGram extends Annotation {
      * @generated
      */
     @Override
-    public int getTypeIndexID() {
-        return typeIndexID;
-    }
-
+    public int getTypeIndexID() {return typeIndexID;}
+ 
     /**
      * Never called.  Disable default constructor
      *
      * @generated
      */
     protected NGram() {/* intentionally empty block */}
-
+    
     /**
      * Internal - constructor used by generator
      *
@@ -54,18 +50,18 @@ public class NGram extends Annotation {
      * @generated
      */
     public NGram(int addr, TOP_Type type) {
-        super(addr, type);
-        readObject();
-    }
-
+    super(addr, type);
+    readObject();
+  }
+  
     /**
      * @param jcas JCas to which this Feature Structure belongs
      * @generated
      */
     public NGram(JCas jcas) {
-        super(jcas);
-        readObject();
-    }
+    super(jcas);
+    readObject();   
+  } 
 
     /**
      * @param jcas  JCas to which this Feature Structure belongs
@@ -74,19 +70,19 @@ public class NGram extends Annotation {
      * @generated
      */
     public NGram(JCas jcas, int begin, int end) {
-        super(jcas);
-        setBegin(begin);
-        setEnd(end);
-        readObject();
-    }
+    super(jcas);
+    setBegin(begin);
+    setEnd(end);
+    readObject();
+  }   
 
-    /**
-     * <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
      * Write your own initialization here
      * <!-- end-user-doc -->
      *
-     * @generated modifiable
-     */
+   * @generated modifiable 
+   */
     private void readObject() {/*default - does nothing empty block */}
 
 
@@ -100,11 +96,10 @@ public class NGram extends Annotation {
      * @generated
      */
     public String getText() {
-        if (NGram_Type.featOkTst && ((NGram_Type) jcasType).casFeat_text == null)
-            jcasType.jcas.throwFeatMissing("text", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.NGram");
-        return jcasType.ll_cas.ll_getStringValue(addr, ((NGram_Type) jcasType).casFeatCode_text);
-    }
-
+    if (NGram_Type.featOkTst && ((NGram_Type)jcasType).casFeat_text == null)
+      jcasType.jcas.throwFeatMissing("text", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.NGram");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((NGram_Type)jcasType).casFeatCode_text);}
+    
     /**
      * setter for text - sets
      *
@@ -112,10 +107,9 @@ public class NGram extends Annotation {
      * @generated
      */
     public void setText(String v) {
-        if (NGram_Type.featOkTst && ((NGram_Type) jcasType).casFeat_text == null)
-            jcasType.jcas.throwFeatMissing("text", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.NGram");
-        jcasType.ll_cas.ll_setStringValue(addr, ((NGram_Type) jcasType).casFeatCode_text, v);
-    }
-}
+    if (NGram_Type.featOkTst && ((NGram_Type)jcasType).casFeat_text == null)
+      jcasType.jcas.throwFeatMissing("text", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.NGram");
+    jcasType.ll_cas.ll_setStringValue(addr, ((NGram_Type)jcasType).casFeatCode_text, v);}    
+  }
 
     

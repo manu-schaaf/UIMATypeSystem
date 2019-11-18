@@ -10,11 +10,9 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
-/**
- * Updated by JCasGen Thu Feb 28 20:08:17 CET 2019
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * @generated */
 public class Sentence_Type extends Annotation_Type {
     /**
      * @generated
@@ -44,10 +42,9 @@ public class Sentence_Type extends Annotation_Type {
      */
     public String getId(int addr) {
         if (featOkTst && casFeat_id == null)
-            jcas.throwFeatMissing("id", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_id);
-    }
-
+      jcas.throwFeatMissing("id", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_id);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -55,9 +52,11 @@ public class Sentence_Type extends Annotation_Type {
      */
     public void setId(int addr, String v) {
         if (featOkTst && casFeat_id == null)
-            jcas.throwFeatMissing("id", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence");
-        ll_cas.ll_setStringValue(addr, casFeatCode_id, v);
-    }
+      jcas.throwFeatMissing("id", "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence");
+    ll_cas.ll_setStringValue(addr, casFeatCode_id, v);}
+    
+  
+
 
 
     /**
@@ -68,14 +67,14 @@ public class Sentence_Type extends Annotation_Type {
      * @generated
      */
     public Sentence_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
+ 
+    casFeat_id = jcas.getRequiredFeatureDE(casType, "id", "uima.cas.String", featOkTst);
+    casFeatCode_id  = (null == casFeat_id) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_id).getCode();
 
-        casFeat_id = jcas.getRequiredFeatureDE(casType, "id", "uima.cas.String", featOkTst);
-        casFeatCode_id = (null == casFeat_id) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_id).getCode();
-
-    }
+  }
 }
 
 
