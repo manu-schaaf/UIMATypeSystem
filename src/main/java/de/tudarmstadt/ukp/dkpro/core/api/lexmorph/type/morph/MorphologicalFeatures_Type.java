@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Thu Feb 28 20:07:00 CET 2019 */
+/* First created by JCasGen Mon Nov 18 17:20:32 CET 2019 */
 package de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph;
 
 import org.apache.uima.jcas.JCas;
@@ -11,573 +11,443 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Morphological categories that can be attached to tokens.
- * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * Updated by JCasGen Mon Nov 18 17:20:32 CET 2019
  * @generated */
 public class MorphologicalFeatures_Type extends Annotation_Type {
-    /**
-     * @generated
-     */
-    @SuppressWarnings("hiding")
-    public final static int typeIndexID = MorphologicalFeatures.typeIndexID;
-    /**
-     * @generated
-     * @modifiable
-     */
-    @SuppressWarnings("hiding")
-    public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
-
-    /**
-     * @generated
-     */
-    final Feature casFeat_gender;
-    /**
-     * @generated
-     */
-    final int casFeatCode_gender;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getGender(int addr) {
+  /** @generated */
+  @SuppressWarnings ("hiding")
+  public final static int typeIndexID = MorphologicalFeatures.typeIndexID;
+  /** @generated 
+     @modifiable */
+  @SuppressWarnings ("hiding")
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
+ 
+  /** @generated */
+  final Feature casFeat_gender;
+  /** @generated */
+  final int     casFeatCode_gender;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getGender(int addr) {
         if (featOkTst && casFeat_gender == null)
       jcas.throwFeatMissing("gender", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_gender);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setGender(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setGender(int addr, String v) {
         if (featOkTst && casFeat_gender == null)
       jcas.throwFeatMissing("gender", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_gender, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_number;
-    /**
-     * @generated
-     */
-    final int casFeatCode_number;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getNumber(int addr) {
+  /** @generated */
+  final Feature casFeat_number;
+  /** @generated */
+  final int     casFeatCode_number;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getNumber(int addr) {
         if (featOkTst && casFeat_number == null)
       jcas.throwFeatMissing("number", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_number);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setNumber(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setNumber(int addr, String v) {
         if (featOkTst && casFeat_number == null)
       jcas.throwFeatMissing("number", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_number, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_case;
-    /**
-     * @generated
-     */
-    final int casFeatCode_case;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getCase(int addr) {
+  /** @generated */
+  final Feature casFeat_case;
+  /** @generated */
+  final int     casFeatCode_case;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getCase(int addr) {
         if (featOkTst && casFeat_case == null)
       jcas.throwFeatMissing("case", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_case);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setCase(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setCase(int addr, String v) {
         if (featOkTst && casFeat_case == null)
       jcas.throwFeatMissing("case", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_case, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_degree;
-    /**
-     * @generated
-     */
-    final int casFeatCode_degree;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getDegree(int addr) {
+  /** @generated */
+  final Feature casFeat_degree;
+  /** @generated */
+  final int     casFeatCode_degree;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getDegree(int addr) {
         if (featOkTst && casFeat_degree == null)
       jcas.throwFeatMissing("degree", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_degree);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setDegree(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setDegree(int addr, String v) {
         if (featOkTst && casFeat_degree == null)
       jcas.throwFeatMissing("degree", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_degree, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_verbForm;
-    /**
-     * @generated
-     */
-    final int casFeatCode_verbForm;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getVerbForm(int addr) {
+  /** @generated */
+  final Feature casFeat_verbForm;
+  /** @generated */
+  final int     casFeatCode_verbForm;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getVerbForm(int addr) {
         if (featOkTst && casFeat_verbForm == null)
       jcas.throwFeatMissing("verbForm", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_verbForm);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setVerbForm(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setVerbForm(int addr, String v) {
         if (featOkTst && casFeat_verbForm == null)
       jcas.throwFeatMissing("verbForm", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_verbForm, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_tense;
-    /**
-     * @generated
-     */
-    final int casFeatCode_tense;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getTense(int addr) {
+  /** @generated */
+  final Feature casFeat_tense;
+  /** @generated */
+  final int     casFeatCode_tense;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getTense(int addr) {
         if (featOkTst && casFeat_tense == null)
       jcas.throwFeatMissing("tense", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_tense);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setTense(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setTense(int addr, String v) {
         if (featOkTst && casFeat_tense == null)
       jcas.throwFeatMissing("tense", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_tense, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_mood;
-    /**
-     * @generated
-     */
-    final int casFeatCode_mood;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getMood(int addr) {
+  /** @generated */
+  final Feature casFeat_mood;
+  /** @generated */
+  final int     casFeatCode_mood;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getMood(int addr) {
         if (featOkTst && casFeat_mood == null)
       jcas.throwFeatMissing("mood", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_mood);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setMood(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setMood(int addr, String v) {
         if (featOkTst && casFeat_mood == null)
       jcas.throwFeatMissing("mood", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_mood, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_voice;
-    /**
-     * @generated
-     */
-    final int casFeatCode_voice;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getVoice(int addr) {
+  /** @generated */
+  final Feature casFeat_voice;
+  /** @generated */
+  final int     casFeatCode_voice;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getVoice(int addr) {
         if (featOkTst && casFeat_voice == null)
       jcas.throwFeatMissing("voice", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_voice);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setVoice(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setVoice(int addr, String v) {
         if (featOkTst && casFeat_voice == null)
       jcas.throwFeatMissing("voice", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_voice, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_definiteness;
-    /**
-     * @generated
-     */
-    final int casFeatCode_definiteness;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getDefiniteness(int addr) {
+  /** @generated */
+  final Feature casFeat_definiteness;
+  /** @generated */
+  final int     casFeatCode_definiteness;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getDefiniteness(int addr) {
         if (featOkTst && casFeat_definiteness == null)
       jcas.throwFeatMissing("definiteness", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_definiteness);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setDefiniteness(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setDefiniteness(int addr, String v) {
         if (featOkTst && casFeat_definiteness == null)
       jcas.throwFeatMissing("definiteness", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_definiteness, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_value;
-    /**
-     * @generated
-     */
-    final int casFeatCode_value;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getValue(int addr) {
+  /** @generated */
+  final Feature casFeat_value;
+  /** @generated */
+  final int     casFeatCode_value;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getValue(int addr) {
         if (featOkTst && casFeat_value == null)
       jcas.throwFeatMissing("value", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_value);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setValue(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setValue(int addr, String v) {
         if (featOkTst && casFeat_value == null)
       jcas.throwFeatMissing("value", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_value, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_person;
-    /**
-     * @generated
-     */
-    final int casFeatCode_person;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getPerson(int addr) {
+  /** @generated */
+  final Feature casFeat_person;
+  /** @generated */
+  final int     casFeatCode_person;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getPerson(int addr) {
         if (featOkTst && casFeat_person == null)
       jcas.throwFeatMissing("person", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_person);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setPerson(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setPerson(int addr, String v) {
         if (featOkTst && casFeat_person == null)
       jcas.throwFeatMissing("person", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_person, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_aspect;
-    /**
-     * @generated
-     */
-    final int casFeatCode_aspect;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getAspect(int addr) {
+  /** @generated */
+  final Feature casFeat_aspect;
+  /** @generated */
+  final int     casFeatCode_aspect;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getAspect(int addr) {
         if (featOkTst && casFeat_aspect == null)
       jcas.throwFeatMissing("aspect", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_aspect);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setAspect(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setAspect(int addr, String v) {
         if (featOkTst && casFeat_aspect == null)
       jcas.throwFeatMissing("aspect", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_aspect, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_animacy;
-    /**
-     * @generated
-     */
-    final int casFeatCode_animacy;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getAnimacy(int addr) {
+  /** @generated */
+  final Feature casFeat_animacy;
+  /** @generated */
+  final int     casFeatCode_animacy;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getAnimacy(int addr) {
         if (featOkTst && casFeat_animacy == null)
       jcas.throwFeatMissing("animacy", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_animacy);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setAnimacy(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setAnimacy(int addr, String v) {
         if (featOkTst && casFeat_animacy == null)
       jcas.throwFeatMissing("animacy", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_animacy, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_negative;
-    /**
-     * @generated
-     */
-    final int casFeatCode_negative;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getNegative(int addr) {
+  /** @generated */
+  final Feature casFeat_negative;
+  /** @generated */
+  final int     casFeatCode_negative;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getNegative(int addr) {
         if (featOkTst && casFeat_negative == null)
       jcas.throwFeatMissing("negative", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_negative);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setNegative(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setNegative(int addr, String v) {
         if (featOkTst && casFeat_negative == null)
       jcas.throwFeatMissing("negative", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_negative, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_numType;
-    /**
-     * @generated
-     */
-    final int casFeatCode_numType;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getNumType(int addr) {
+  /** @generated */
+  final Feature casFeat_numType;
+  /** @generated */
+  final int     casFeatCode_numType;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getNumType(int addr) {
         if (featOkTst && casFeat_numType == null)
       jcas.throwFeatMissing("numType", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_numType);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setNumType(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setNumType(int addr, String v) {
         if (featOkTst && casFeat_numType == null)
       jcas.throwFeatMissing("numType", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_numType, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_possessive;
-    /**
-     * @generated
-     */
-    final int casFeatCode_possessive;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getPossessive(int addr) {
+  /** @generated */
+  final Feature casFeat_possessive;
+  /** @generated */
+  final int     casFeatCode_possessive;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getPossessive(int addr) {
         if (featOkTst && casFeat_possessive == null)
       jcas.throwFeatMissing("possessive", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_possessive);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setPossessive(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setPossessive(int addr, String v) {
         if (featOkTst && casFeat_possessive == null)
       jcas.throwFeatMissing("possessive", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_possessive, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_pronType;
-    /**
-     * @generated
-     */
-    final int casFeatCode_pronType;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getPronType(int addr) {
+  /** @generated */
+  final Feature casFeat_pronType;
+  /** @generated */
+  final int     casFeatCode_pronType;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getPronType(int addr) {
         if (featOkTst && casFeat_pronType == null)
       jcas.throwFeatMissing("pronType", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_pronType);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setPronType(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setPronType(int addr, String v) {
         if (featOkTst && casFeat_pronType == null)
       jcas.throwFeatMissing("pronType", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_pronType, v);}
     
   
  
-    /**
-     * @generated
-     */
-    final Feature casFeat_reflex;
-    /**
-     * @generated
-     */
-    final int casFeatCode_reflex;
-
-    /**
-     * @param addr low level Feature Structure reference
-     * @return the feature value
-     * @generated
-     */
-    public String getReflex(int addr) {
+  /** @generated */
+  final Feature casFeat_reflex;
+  /** @generated */
+  final int     casFeatCode_reflex;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getReflex(int addr) {
         if (featOkTst && casFeat_reflex == null)
       jcas.throwFeatMissing("reflex", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     return ll_cas.ll_getStringValue(addr, casFeatCode_reflex);
   }
-    /**
-     * @param addr low level Feature Structure reference
-     * @param v    value to set
-     * @generated
-     */
-    public void setReflex(int addr, String v) {
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setReflex(int addr, String v) {
         if (featOkTst && casFeat_reflex == null)
       jcas.throwFeatMissing("reflex", "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures");
     ll_cas.ll_setStringValue(addr, casFeatCode_reflex, v);}
@@ -586,14 +456,12 @@ public class MorphologicalFeatures_Type extends Annotation_Type {
 
 
 
-    /**
-     * initialize variables to correspond with Cas Type and Features
-     *
-     * @param jcas    JCas
-     * @param casType Type
-     * @generated
-     */
-    public MorphologicalFeatures_Type(JCas jcas, Type casType) {
+  /** initialize variables to correspond with Cas Type and Features
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
+  public MorphologicalFeatures_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 

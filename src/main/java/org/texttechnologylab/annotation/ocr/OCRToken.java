@@ -12,7 +12,7 @@ import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token;
 
 
 /** 
- * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * Updated by JCasGen Mon Nov 18 17:20:32 CET 2019
  * XML source: /home/stud_homes/s3676959/git/UIMATypeSystem/src/main/resources/desc/type/TextTechnologyOCR.xml
  * @generated */
 public class OCRToken extends Token {

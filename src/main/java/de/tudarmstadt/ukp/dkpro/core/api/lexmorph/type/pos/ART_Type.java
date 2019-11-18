@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Thu Feb 28 20:07:00 CET 2019 */
+/* First created by JCasGen Mon Nov 18 17:20:32 CET 2019 */
 package de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos;
 
 import org.apache.uima.jcas.JCas;
@@ -8,30 +8,25 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** Determiners and articles
- * Updated by JCasGen Mon Nov 18 17:15:05 CET 2019
+ * Updated by JCasGen Mon Nov 18 17:20:32 CET 2019
  * @generated */
 public class ART_Type extends POS_Type {
-    /**
-     * @generated
-     */
-    @SuppressWarnings("hiding")
-    public final static int typeIndexID = ART.typeIndexID;
-    /**
-     * @generated
-     * @modifiable
-     */
-    @SuppressWarnings("hiding")
-    public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.ART");
+  /** @generated */
+  @SuppressWarnings ("hiding")
+  public final static int typeIndexID = ART.typeIndexID;
+  /** @generated 
+     @modifiable */
+  @SuppressWarnings ("hiding")
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.ART");
 
 
-    /**
-     * initialize variables to correspond with Cas Type and Features
-     *
-     * @param jcas    JCas
-     * @param casType Type
-     * @generated
-     */
-    public ART_Type(JCas jcas, Type casType) {
+
+  /** initialize variables to correspond with Cas Type and Features
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
+  public ART_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
